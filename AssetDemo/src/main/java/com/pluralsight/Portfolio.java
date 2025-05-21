@@ -1,12 +1,12 @@
 package com.pluralsight;
-
 import java.util.ArrayList;
+import java.util.List;
 
 public class Portfolio {
 
     private String name;
     private String owner;
-    private ArrayList<Valuable> valuables;
+    private List<Valuable> valuables;
 
     public Portfolio(String name, String owner) {
         this.name = name;
